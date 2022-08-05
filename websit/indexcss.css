@@ -1,0 +1,163 @@
+@media screen and (min-width:1000px)
+{
+    body
+    {
+        background-image: url('bg22.jpg');
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:white;
+    }
+    .head
+    {
+        margin-top: 20%;
+        text-align: center;
+        margin-bottom:25%;
+        font-size:100px;
+    }
+    p
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    p
+    {
+        text-align: center;
+    }
+    body
+    {
+        background-image: url('bg22.jpg');
+        font-family: cursive;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:white;
+    }
+    .head
+    {
+        font-size:70px;
+        margin-top: 50%;
+        text-align: center;
+        margin-bottom:50%;
+    }
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-family: Arial;
+}
+.header
+{
+    text-align: center;
+    padding: 32px;
+}
+.row
+{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column
+{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px)
+{
+    p
+    {
+        text-align: center;
+    }
+    .column
+    {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]
+{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    background-color: gray;
+}
+.cont
+{
+    border-radius: 5px;
+    padding: 10px;
+}
+.colu
+{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px)
+{
+    p
+    {
+        text-align: center;
+    }
+    .colu, input[type=submit]
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+fieldset
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: none;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
