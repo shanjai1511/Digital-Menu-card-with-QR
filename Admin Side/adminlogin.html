@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>log-in</title>
+        <link rel = "icon" href = "logo.jpg" type = "image/x-icon">
+        <link rel="stylesheet" href="logincss.css">
+    </head>
+    <body>
+        <script>
+            function validate()
+            {
+                let x = document.forms["myForm"]["username"].value;
+                let y = document.forms["myForm"]["password"].value;
+                if ((x === y) && ((x=='shanjai1511')||(x=='muhil0108')))
+                {
+                    return true;
+                }
+            }
+        </script>
+        <form name="myForm" onsubmit="return validate()" action="selection.html" method="post">
+            <h3>Sip chat cafe - Login</h3>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password" required>
+            <button onclick="validate()">Log In</button>
+        </form>
+    </body>
+</html>
