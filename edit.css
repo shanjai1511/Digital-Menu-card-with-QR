@@ -1,0 +1,67 @@
+fieldset
+{
+    margin-left:25%;
+    margin-right:25%;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+h3
+{
+    text-align:center;
+}
+body
+{
+    background-image: url('bg22.jpg');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: cursive;
+}
+*
+{
+    box-sizing: border-box;
+    color:white;
+}
+.button
+{
+    margin-top: 20px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #080710;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+label
+{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input
+{
+    display: block;
+    height: 35px;
+    width: 50%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family:cursive;
+}
+button
+{
+    float:right;
+    text-align:center;
+}
+a
+{
+    text-decoration: none;
+    color:#080710;
+}
